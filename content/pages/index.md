@@ -26,7 +26,7 @@ sections:
         title: Second Card Title
         image:
           type: Image
-          url: /images/mui-5.svg
+          url: /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png
           altText: Second item image
         text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
