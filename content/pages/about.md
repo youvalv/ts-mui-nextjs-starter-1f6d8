@@ -4,7 +4,7 @@ type: Page
 slug: about
 sections:
   - type: HeroSection
-    title: Example for H2 headline
+    title: Example for H2 headline..
     subtitle: This is the subtitle...
     text: >
       This is **Markdown** *text*.
