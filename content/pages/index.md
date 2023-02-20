@@ -8,7 +8,7 @@ sections:
     subtitle: Section subtitle here
     items:
       - type: Card
-        title: First Card Title
+        title: 'First Card Title,'
         image:
           type: Image
           url: /images/nextjs.svg
