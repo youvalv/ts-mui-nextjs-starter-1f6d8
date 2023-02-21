@@ -4,7 +4,7 @@ type: Page
 slug: /
 sections:
   - type: CardsSection
-    title: CardsSection Component
+    title: CardsSection Component..
     subtitle: Section subtitle here
     items:
       - type: Card
