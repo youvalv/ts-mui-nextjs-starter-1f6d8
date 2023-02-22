@@ -4,7 +4,7 @@ type: Page
 slug: /
 sections:
   - type: CardsSection
-    title: CardsSection Component...!!!!..
+    title: Remote title
     subtitle: Section subtitle here
     items:
       - type: Card
