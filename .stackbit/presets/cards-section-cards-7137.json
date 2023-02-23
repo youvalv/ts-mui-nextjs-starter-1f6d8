@@ -1,0 +1,104 @@
+{
+    "model": "CardsSection",
+    "srcType": "git",
+    "srcProjectId": "davbree/ts-mui-nextjs-starter-1f6d8",
+    "presets": [
+        {
+            "label": "Cards",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "c"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Remote title!!....??.",
+                "subtitle": "Section subtitle here",
+                "items": [
+                    {
+                        "title": "First Card Title,",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
+                        "image": {
+                            "url": "/_static/app-assets/images/nextjs.svg",
+                            "altText": "First item image",
+                            "$$type": "Image"
+                        },
+                        "actions": [
+                            {
+                                "label": "Read the Docs",
+                                "url": "https://docs.stackbit.com/",
+                                "size": null,
+                                "variant": null,
+                                "color": null,
+                                "$$type": "Button"
+                            }
+                        ],
+                        "$$type": "Card"
+                    },
+                    {
+                        "title": "Second Card Title",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
+                        "image": {
+                            "url": "/_static/app-assets/images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png",
+                            "altText": "Second item image",
+                            "$$type": "Image"
+                        },
+                        "actions": [
+                            {
+                                "label": "Read the Docs",
+                                "url": "https://docs.stackbit.com/",
+                                "size": null,
+                                "variant": null,
+                                "color": null,
+                                "$$type": "Button"
+                            }
+                        ],
+                        "$$type": "Card"
+                    },
+                    {
+                        "title": "Third Card Title",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
+                        "image": {
+                            "url": "/_static/app-assets/images/ts.svg",
+                            "altText": "Third item image",
+                            "$$type": "Image"
+                        },
+                        "actions": [
+                            {
+                                "label": "Read the Docs",
+                                "url": "https://docs.stackbit.com/",
+                                "size": null,
+                                "variant": null,
+                                "color": null,
+                                "$$type": "Button"
+                            }
+                        ],
+                        "$$type": "Card"
+                    },
+                    {
+                        "title": "Item Title..",
+                        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                        "image": {
+                            "url": "/_static/app-assets/images/hero.svg",
+                            "altText": "Item image",
+                            "$$type": "Image"
+                        },
+                        "actions": [
+                            {
+                                "label": "Learn More",
+                                "url": "/",
+                                "size": "medium",
+                                "variant": "text",
+                                "color": "primary",
+                                "$$type": "Button"
+                            }
+                        ],
+                        "$$type": "Card"
+                    }
+                ]
+            },
+            "thumbnail": "images/cards-section-cards-7137.png"
+        }
+    ]
+}

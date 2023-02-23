@@ -1,0 +1,37 @@
+{
+    "model": "Card",
+    "srcType": "git",
+    "srcProjectId": "git_project",
+    "presets": [
+        {
+            "label": "Card",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "c"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Second Card Title",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
+                "image": {
+                    "url": "/_static/app-assets/images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png",
+                    "altText": "Second item image",
+                    "$$type": "Image"
+                },
+                "actions": [
+                    {
+                        "label": "Read the Docs",
+                        "url": "https://docs.stackbit.com/",
+                        "size": null,
+                        "variant": null,
+                        "color": null,
+                        "$$type": "Button"
+                    }
+                ]
+            },
+            "thumbnail": "images/card-card-da3d.png"
+        }
+    ]
+}
