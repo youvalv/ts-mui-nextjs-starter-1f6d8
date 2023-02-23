@@ -3,3 +3,4 @@ const consts = {
     pagesDir: 'content/pages'
 };
 export default consts;
+
