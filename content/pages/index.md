@@ -4,14 +4,16 @@ type: Page
 slug: /
 sections:
   - type: CardsSection
-    title: Remote title!!....??...
+    title: Local title...
     subtitle: Section subtitle here
     items:
       - type: Card
         title: 'First Card Title,'
         image:
           type: Image
-          url: /images/nextjs.svg
+          url: >-
+            /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept
+            copy.png
           altText: First item image
         text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -23,10 +25,27 @@ sections:
             label: Read the Docs
             url: 'https://docs.stackbit.com/'
       - type: Card
+        title: 'First Card Title,'
+        text: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        image:
+          type: Image
+          url: >-
+            /_static/app-assets/images/2333109182_circle_avatar_of_a_blogger__3d_art__concept
+            copy.png
+          altText: First item image
+        actions:
+          - type: Button
+            label: Read the Docs
+            url: 'https://docs.stackbit.com/'
+      - type: Card
         title: Second Card Title
         image:
           type: Image
-          url: /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png
+          url: /images/ts.svg
           altText: Second item image
         text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -41,7 +60,9 @@ sections:
         title: Third Card Title
         image:
           type: Image
-          url: /images/ts.svg
+          url: >-
+            /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept copy
+            2.png
           altText: Third item image
         text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -73,10 +94,16 @@ sections:
     title: Stackbit starter!!!....
     subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
     text: >
-      This is the HeroSection component. You can visually edit this component &
-      add more sections while developing locally. [Learn
+      **This** is the HeroSection component. You can visually edit this
+      component & add more sections while developing locally. [Learn
       more.](https://docs.stackbit.com/how-to-guides/local-development/)
     actions:
+      - type: Button
+        label: Learn more
+        url: /
+        size: large
+        variant: text
+        color: secondary
       - type: Button
         label: Start Building
         url: 'https://docs.stackbit.com/getting-started/'
