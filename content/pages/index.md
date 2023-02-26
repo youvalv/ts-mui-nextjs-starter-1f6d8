@@ -12,7 +12,7 @@ sections:
         image:
           type: Image
           url: >-
-            /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept
+            /images/3008165369_An_eggplant_standing_strong_with_a_city_in_the_background__concept_art__matte_painting__HQ__4k
             copy.png
           altText: First item image
         text: >
