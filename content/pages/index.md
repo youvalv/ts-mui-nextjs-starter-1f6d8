@@ -45,7 +45,9 @@ sections:
         title: Second Card Title
         image:
           type: Image
-          url: /images/ts.svg
+          url: >-
+            /images/3008165369_An_eggplant_standing_strong_with_a_city_in_the_background__concept_art__matte_painting__HQ__4k
+            copy 2.png
           altText: Second item image
         text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
