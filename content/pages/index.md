@@ -189,4 +189,5 @@ sections:
             size: medium
             variant: text
             color: primary
+author: content/data/amazing-spruce.json
 ---
