@@ -48,7 +48,7 @@ sections:
           aliquip ex ea commodo consequat.
         image:
           type: Image
-          url: /images/nextjs.svg
+          url: /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png
           altText: First item image
         actions:
           - type: Button
@@ -63,9 +63,7 @@ sections:
           aliquip ex ea commodo consequat.
         image:
           type: Image
-          url: >-
-            /images/483411121_An_eggplant_standing_strong_with_a_city_in_the_background__concept_art__matte_painting__HQ__4k
-            copy.png
+          url: /images/favicon.svg
           altText: Second item image
         actions:
           - type: Button
