@@ -63,9 +63,7 @@ sections:
           aliquip ex ea commodo consequat.
         image:
           type: Image
-          url: >-
-            /images/483411121_An_eggplant_standing_strong_with_a_city_in_the_background__concept_art__matte_painting__HQ__4k
-            copy.png
+          url: /images/favicon.svg
           altText: Second item image
         actions:
           - type: Button
