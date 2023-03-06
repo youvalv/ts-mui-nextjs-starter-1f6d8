@@ -4,7 +4,7 @@ type: Page
 slug: /
 sections:
   - type: HeroSection
-    title: Stackbit starter!...
+    title: Stackbit starter!.....!!
     subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
     text: >
       **This** is the HeroSection component. You can visually edit this
@@ -31,7 +31,9 @@ sections:
         color: primary
     image:
       type: Image
-      url: /images/hero.svg
+      url: >-
+        /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept copy
+        2.png
       altText: Hero section image
   - type: CardsSection
     title: Remote title!!....??.
@@ -46,7 +48,7 @@ sections:
           aliquip ex ea commodo consequat.
         image:
           type: Image
-          url: /_static/app-assets/images/nextjs.svg
+          url: /images/nextjs.svg
           altText: First item image
         actions:
           - type: Button
@@ -62,7 +64,8 @@ sections:
         image:
           type: Image
           url: >-
-            /_static/app-assets/images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png
+            /images/483411121_An_eggplant_standing_strong_with_a_city_in_the_background__concept_art__matte_painting__HQ__4k
+            copy.png
           altText: Second item image
         actions:
           - type: Button
@@ -77,7 +80,7 @@ sections:
           aliquip ex ea commodo consequat.
         image:
           type: Image
-          url: /_static/app-assets/images/ts.svg
+          url: /images/ts.svg
           altText: Third item image
         actions:
           - type: Button
@@ -91,7 +94,7 @@ sections:
           explicabo.
         image:
           type: Image
-          url: /_static/app-assets/images/hero.svg
+          url: /images/hero.svg
           altText: Item image
         actions:
           - type: Button
