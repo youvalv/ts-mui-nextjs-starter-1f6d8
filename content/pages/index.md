@@ -48,7 +48,7 @@ sections:
           aliquip ex ea commodo consequat.
         image:
           type: Image
-          url: /images/nextjs.svg
+          url: /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png
           altText: First item image
         actions:
           - type: Button
