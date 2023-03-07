@@ -16,7 +16,7 @@
                 "title": "Second Card Title",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
                 "image": {
-                    "url": "/_static/app-assets/images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png",
+                    "url": "/images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png",
                     "altText": "Second item image",
                     "$$type": "Image"
                 },
