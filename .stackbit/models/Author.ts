@@ -3,7 +3,7 @@ import { Model } from '@stackbit/types';
 export const Author: Model = {
     name: 'Author',
     type: 'data',
-    filePath: 'content/data/{slug}.json',
+    filePath: 'content/data/{name}.json',
     label: 'Author',
     labelField: 'name',
     fields: [
