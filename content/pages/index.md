@@ -31,7 +31,7 @@ sections:
         color: primary
     image:
       type: Image
-      url: /images/2333109182_circle_avatar_of_a_blogger__3d_art__concept.png
+      url: /images/CSI_Logo.png
       altText: Hero section image
   - type: CardsSection
     title: Remote title!!....??.
