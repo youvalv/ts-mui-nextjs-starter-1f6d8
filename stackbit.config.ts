@@ -21,8 +21,6 @@ const sbConfig = defineStackbitConfig({
         new GitContentSource({
             rootPath: __dirname,
             contentDirs: ['content'],
-            repoUrl: process.env.REPO_URL,
-            repoBranch: process.env.REPO_BRANCH,
             models: [Author, Button, Card, CardsSection, Config, Footer, Header, HeroSection, Image, Link, Page, ThemeStyle],
             assetsConfig: {
                 referenceType: 'static',
