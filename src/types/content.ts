@@ -11,6 +11,7 @@ export type Config = {
     favicon?: string;
     header?: Header;
     footer?: Footer;
+    slug?: string;
 };
 
 export type Page = {
@@ -20,6 +21,7 @@ export type Page = {
     title: string;
     sections?: Section[];
     body?: string;
+    slug?: string;
 };
 
 /** Nested types */

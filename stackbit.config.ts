@@ -12,6 +12,7 @@ import { Page } from './.stackbit/models/Page';
 import { ThemeStyle } from './.stackbit/models/ThemeStyle';
 import { defineStackbitConfig } from '@stackbit/types';
 import { GitContentSource } from '@stackbit/cms-git';
+import { fileToUrl } from 'src/utils/content';
 
 const sbConfig = defineStackbitConfig({
     stackbitVersion: '~0.6.0',
@@ -29,7 +30,19 @@ const sbConfig = defineStackbitConfig({
                 publicPath: '/'
             }
         })
-    ]
+    ],
+    siteMap: (options) => {
+        const result = options.documents
+            .filter((document) => document.modelName === 'Page')
+            .map((document) => {
+                const slugField = document.fields['slug'];
+                return {
+                    document,
+                    urlPath: fileToUrl(document.id, slugField?.type === 'string' && slugField?.localized == false ? slugField.value : '')
+                };
+            });
+        return result;
+    }
 });
 
 export default sbConfig;
