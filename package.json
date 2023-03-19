@@ -30,6 +30,7 @@
     },
     "devDependencies": {
         "@stackbit/artisanal-names": "^1.0.1",
+        "@stackbit/cli": "^0.2.82-staging.1",
         "@stackbit/cms-core": "0.1.26-staging.1",
         "@stackbit/cms-git": "0.0.50-staging.1",
         "@stackbit/types": "0.1.11-staging.1",
