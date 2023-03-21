@@ -38,7 +38,7 @@ const sbConfig = defineStackbitConfig({
                 const slugField = document.fields['slug'];
                 return {
                     document,
-                    urlPath: fileToUrl(document.id, slugField?.type === 'string' && slugField?.localized == false ? slugField.value : '')
+                    urlPath: fileToUrl(document.id, slugField?.type === 'string' && slugField?.localized == false ? slugField.value : '') || ''
                 };
             });
         return result;
