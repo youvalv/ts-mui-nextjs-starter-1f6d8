@@ -21,6 +21,7 @@ function readContent(file: string): types.Document {
     let content = null;
     switch (path.extname(file).substring(1)) {
         case 'md':
+            // eslint-disable-next-line no-case-declarations
             const parsedMd = frontmatter<Record<string, any>>(rawContent);
             content = {
                 ...parsedMd.attributes,
